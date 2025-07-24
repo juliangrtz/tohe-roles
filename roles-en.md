@@ -42,9 +42,9 @@ You can Sabotage and Vent.
 
 # Crewmate
 
-(Besatzung):
-Als Besatzungsmitglied ist es dein Ziel, die Verräter zu finden und rauszuwerfen.
-Die Besatzung kann gewinnen, indem sie die Verräter loswerden, oder alle Aufgaben abschließen.
+(Crewmates):
+As the Crewmate, your goal is to find and exile the Impostors.
+Crewmates win by getting rid of all killers or by finishing all their tasks.
 
 # BountyHunter
 
@@ -76,15 +76,15 @@ As the Vampire, your kills are delayed. This means that your target still dies e
 
 # Warlock
 
-(Verräter):
-Als Hexer kannst du einen anderen Spieler verhexen.
-Wenn du dich formwandelst killt der Verhexte den nächstegelegenen Spieler, je nach Einstellung bist du und/oder die anderen Verräter davon inbegriffen.
-Während du geformwandelt bist, kannst du normal killen.
+(Impostors):
+As the Warlock, you can Curse up to one other player at a time.
+When you Shapeshift, if you have Cursed a player, they kill the nearest person, which, depending on settings, can include you or other Impostors.
+You can kill normally while Shapeshifted.
 
 # Zombie
 
-(Verräter):
-Der Zombie hat eine kurze Killwartezeit, bewegt sich aber sehr langsam und hat eine sehr geringe Sichtweite. Der Zombie kann von niemandem außer dem Diktator gevotet werden, und die Bewegungsgeschwindigkeit des Zombies verlangsamt sich allmählich, wenn er killt oder Zeit vergeht.
+(Impostors):
+Zombie has a short Kill Cooldown but moves very slowly and has very little vision. Zombie can not be voted out by anyone other than the Dictator, and the movement speed of Zombie will gradually slow down as they make kills or time passes.
 
 # Ninja
 
@@ -93,9 +93,10 @@ As the Ninja, you can use your Kill button to mark a target (single click) or ki
 
 # Anonymous
 
-(Verräter):
-Als der Anonymer kannst du dich formwandeln, um dein Opfer dazu zu zwingen, die Leiche zu melden die du gekillt hast. Wenn du niemanden gekillt hast, wird das Opfer sich selbst melden, so wie als wäre das Opfer die Leiche.
-Hinweis: Das funktioniert nicht beim Faulen oder faulen Kerl, und die Fähigkeit greift, unabhängig davon ob die Leiche normal gemeldet werden kann oder nicht.
+(Impostors):
+As the Anonymous, you can Shapeshift to force your target to report whoever you killed this round.
+If you killed nobody that round, the target will report their own dead body as if they had died.
+Note: This does not work on Lazy nor Lazy Guy, and this ability will work regardless of whether the body can normally be reported.
 
 # Miner
 
@@ -156,8 +157,8 @@ As the YinYanger, you can use your Kill button one time to pick your Yin and the
 
 # TimeThief
 
-(Verräter):
-Jedes Mal, wenn der Zeitdieb einen Spieler killt, verringert sich die Besprechungszeit um eine gewisse Zeit. Wenn der Zeitdieb stirbt wird die Besprechungszeit wieder zurückgesetzt.
+(Impostors):
+Every time the Time Thief kills a player, the meeting time will be reduced by a certain amount of time. If the Time Thief dies, the meeting time will return to normal.
 
 # Sniper
 
@@ -282,8 +283,8 @@ A target can only be erased once (including OIIAI)
 
 # Butcher
 
-(Verräter):
-Die Kills des Schlächters, auch passive, hinterlassen mehrere Leichen auf den Zielen, was bei der Leichenmeldung etwas verwirrend sein kann. Hier gilt die Regel: Das gekillte Ziel muss wiederholt die Animation des Killens anzeigen, die nicht übersprungen werden kann, und es kann in diesem Zeitraum nicht normal an der Besprechung teilnehmen. Und wenn der Schlächter den Rächer tötet, wird der Rächer jeden im Zorn rächen.
+(Impostors):
+The Butcher's kills, including passive ones, leave multiple dead bodies on targets, which can be a bit confusing when reporting. Here's the rule: the killed target must repeatedly display the animation of being killed, which cannot be skipped, and they cannot participate in the meeting normally during this period. And if the Butcher kills the Avenger, the Avenger will revenge everyone in anger.
 
 # Hangman
 
@@ -297,9 +298,11 @@ As the Swooper, you can Vent to Vanish temporarily. You will still appear visibl
 
 # Crewpostor
 
-(Verräterhelfer):
-Wenn ein Crewposter die benötigte Anzahl an Aufgaben abgeschlossen hat, stirbt der Spieler, der am nächsten zu dem Crewposter ist.
-Die Aufgaben des Crewpostors setzen sich nach jedem Meeting zurück.
+(Madmates):
+When Crewpostor finishes the required number of tasks,they will kill the player nearest to them.
+Crewpostor's tasks is reset every meeting.
+
+If Crewpostor is Last Impostor,they will only need to do one task for each kill.
 
 # Wildling
 
@@ -324,8 +327,8 @@ As the Vindicator, you have extra votes like a <color=#204d42>Mayor</color>.
 
 # Stealth
 
-(Verräter):
-Wenn der Tarner killt werden die Spieler im gleichen Raum für eine bestimmte Zeit geblendet.
+(Impostors):
+When the Stealth kills, players in the same room are blinded for a short time.
 
 # Penguin
 
@@ -363,12 +366,14 @@ If Reactor or O2 Sabotage is active, then you can kill.
 
 # Councillor
 
-(Verräter):
-Als Stadtrat kannst du Spieler killen wie ein Richter, wenn du während einem treffen killst, wird das angezeigt als Prozess durch einen Richter.
+(Impostors):
+As the Councillor, you can kill players during a meeting like a Judge.
+When killing in a meeting, those kills will appear as a trial from a Judge.
 
-Befehl: /tl [Spieler ID]
-du kannst die Spieler IDs neben den Namen der Spieler sehen, oder nutze den Befehl /id um eine Liste zu erhalten.
-Abhängig von den Einstellungen wird der Stadtrat Selbstmord begehen, wenn er seine Teamkameraden beurteilt.
+The kill command is /tl [player id]
+You can see the player's id before the player's name, or use the /id command to view the id of all players.
+Depending on the settings, Councillor will suicide when he judge his teammates.
+Converted Councillor can judge freely.
 
 # Dazzler
 
@@ -405,20 +410,20 @@ As the Lurker, you can jump into a Vent to reduce your Cooldown by a certain num
 
 # Visionary
 
-(Verräter):
-Als Visionär siehst du den Aufenthaltsort von lebenden Spielern während einem Treffen.
-Folgende Information wird bei den Spielern angezeigt:
-- Roter Name bedeutet Verräter.
-- Türkiser Name bedeutet Besatzung.
-- Grauer Name bedeutet Neutral.
+(Impostors):
+As the Visionary, you see the alignments of living players during a meeting.
+The following information will be displayed on the players:
+- The Red name indicates the Impostors.
+- The Cyan name indicates the Crewmates.
+- The Gray name indicates the Neutrals.
 
 # PlagueDoctor
 
-(Neutral):
-(Seuchendoktor von TOH)
-Als Seuchendoktor musst du jeden lebenden Spieler infiziert bekommen.
-Du startest mit einem beliebigen Spieler, den du infizierst, wenn wer für kurze Zeit in unmittelbarer Nähe dieses Infizierten verbringt, wird er selbst auch infiziert.
-Der Infizierungsprozess ist kumulative, also er resetet sich nicht nach Distanzierung oder nach Treffen.
+(Neutrals):
+(Plague Doctor from TOH)
+The Plague Scientist's goal is to infect every living player.
+They start by choosing one player to infect, after which anyone who spends a set amount of time in the range of the infected player becomes infected themselves.
+Infection progress is cumulative and does not reset with distance or after meetings.
 
 # Refugee
 
@@ -433,8 +438,8 @@ Now your job is to help the Impostors kill the Crewmates.
 
 # Underdog
 
-(Verräter):
-Als Unterlegener kannst du nicht killen bis eine bestimmte Anzahl an lebenden Spieler bleibt.
+(Impostors):
+As the Underdog, you cannot kill until there's a certain amount of players alive.
 
 # Consigliere
 
@@ -466,8 +471,8 @@ As the Chronomancer, you have a charge bar which indicates when the slaughter is
 
 # Exorcist
 
-(Verräter):
-Als der Exorzist kannst du /ex im Treffen nutzen um einen Spieler der in den nächsten paar Sekunden nach der Nutzung des Befehls redet zu killen. Abhänging von den Einstellungen kann der Exorzist mehrere Spieler in einem Treffen killen. Du verlierst deine Fähigkeit wenn du zu viele Spieler exerzierst.
+(Impostors):
+As the Exorcist, you can use /ex in meeting to kill a player who speaks in the next set amount of seconds after using the command. Depending on the settings, the Exorcist can kill multiple people in one meeting. You'll lose your ability if you excersise too many people.
 
 # Pitfall
 
@@ -503,8 +508,8 @@ There will be a star logo next to the Super Star's name, so everyone knows who t
 
 # Celebrity
 
-(Besatzung):
-Alle Besatzungsmitglieder sehen den Killblitz wen der Prominente stirbt (so ähnlich wie der Seher den Killblitz sieht) und bekommen ein Hinweis beim nächsten Treffen. Die Verräter wissen nichts darüber.
+(Crewmates):
+All Crewmates see the kill-flash when the Celebrity dies (same as the Seer sees the kill-flash) and get a notice at the next meeting. The Impostors don't know anything about this.
 
 # Cleanser
 
@@ -610,8 +615,8 @@ Whenever the Transporter completes the task, two random players will switch posi
 
 # TimeManager
 
-(Besatzung):
-Je mehr Aufgaben der Zeitmanager erledigt, desto länger wird die Besprechungszeit. Wenn er stirbt, wird sie wieder zurückgesetzt. Wenn der Zeitmanager ein Verräterhelfer wird, wirkt sich die Fähigkeit genau verkehrt herum aus.
+(Crewmates):
+The more tasks the Time Manager does, the longer the meeting time will be. When the Time Manager dies, the meeting time will return to normal. When the Time Manager becomes a Madmate, the skill changes to reducing the meeting time instead of increasing it.
 
 # Veteran
 
@@ -638,8 +643,8 @@ Note You can't guess people in meetings.
 
 # Bodyguard
 
-(Besatzung):
-Wenn ein Spieler in der Nähe des Leibwächters gekillt wird, verhindert der Leibwächter den Kill und stirbt mit dem Killer. Die Fähigkeit wirkt bei jedem Team. Wenn der Leibwächter ein Verräterhelfer wird und der Killer ist ein Verräter, wirkt die Fähigkeit nicht.
+(Crewmates):
+If a player is about to be killed near the Bodyguard, the Bodyguard will prevent the kill and die with the murderer. The Bodyguard's skills will affect players of any team. When the Bodyguard becomes a Madmate, and the murderer is an Impostor, the Bodyguard will not activate the skill.
 
 # Deceiver
 
@@ -659,12 +664,13 @@ Depending on the Host's settings, the Medic or the target can see if the player 
 
 # FortuneTeller
 
-(Besatzung):
-Wenn die Wahrsagerin für einen Spieler votet bekommt sie einen Hinweis zu seiner aktuellen Rolle.
+(Crewmates):
+As the Fortune Teller, vote for a player in a meeting to get a clue to their role.
+The clue will relate to their actual role.
 
-Wenn du alle Aufgaben erledigt hast bekommst du die exakte Rolle anstatt einem Hinweis!
+When the Fortune Teller's tasks are complete, they will obtain the exact role rather than a clue!
 
-Hinweis: Wenn die Einstellung aktiv ist, einen Hinweis von einem zufälligen Spieler zu bekommen, bist du nicht berechtigt einen Spieler öfters abzuchecken.
+Note: If the setting to give random active players as a hint is on, you cannot check the same player multiple times.
 
 # Judge
 
@@ -677,14 +683,13 @@ In meeting the ability count shows how many trails you have in this meeting. Out
 
 # Mortician
 
-(Besatzung):
-Als Leichenbestatter werden dir Pfeile angezeigt die in Richtung einer Leiche zeigen und wen er diese meldet, wird er erfahren wer als Letztes in Kontakt mit ihm war.
-Hinweis: Leichenbestatter werden keine Seher oder Vergessliche.
+(Crewmates):
+The Mortician can see arrows pointing to all dead bodies, and if the Mortician reports a body, they will know the last player the victim had contact with. Note: Mortician won't be Oblivious or Seer.
 
 # Medium
 
-(Besatzung):
-Der Hellseher kann in Kontakt mit den Geistern treten, nachdem jemand eine Leiche gemeldet hat. Der Spieler, der eine Leiche gemeldet hat, muss kein Hellseher sein. Der tote Spieler kann nur mit JA oder NEIN auf die Frage des Hellsehers antworten, welche nur vom Hellseher gesehen werden kann. (Der tote Spieler kann mit /ms yes oder /ms no antworten). Hinweis: Hellseher können keine Vergesslichen sein.
+(Crewmates):
+The Medium can establish contact with a dead player after someone reports a dead body. The player who reports doesn't have to be the Medium. The dead player can answer once with a YES or a NO to the Medium's question, which only the Medium will see (the dead player can use /ms yes or /ms no). Note: Medium won't be Oblivious.
 
 # Observer
 
@@ -713,16 +718,16 @@ As The Overseer, you have minimal vision, but you can use your Kill button to re
 
 # Coroner
 
-(Besatzung):
-Der Leichenbeschauer kann keine Leichen melden, wenn du eine Leiche meldest wird dir ein Pfeil zum Killer angezeigt. Wenn ein Treffen einberufen wird, verschwindet der Pfeil. Je nach Einstellungen kann man von dir begutachtete Leichen nicht melden.
+(Crewmates):
+As a Coroner, you can't report corpses; instead, after trying to report the corpse, you will see an arrow leading you to the killer. If someone calls a meeting, the arrows disappear. Depending on the settings, players can't report the body you found.
 
 # President
 
-(Besatzung):
-Der Präsident hat 2 Fähigkeiten: Treffenende und Bekundung.
+(Crewmates):
+The President has two abilities: End the meeting and Reveal identity.
 
-+ Fähigkeit 1: Treffenende - Tippe /finish im Treffen um als Präsident das Treffen sofort zu beenden.
-+ Fähigkeit 2: Bekundung - Tippe /reveal um dich zu erkennen zu geben. Sobald du dich für alle zu erkennen gegeben hast kannst du nicht mehr geguessed werden, aber derjenige, der dich als nächster killt, hat eine grandios verkürzte Killwartezeit.
++ Ability 1: End the meeting - Type /finish in meetings as President to instantly end the meeting.
++ Ability 2: Reveal identity - Type /reveal in meetings to reveal yourself. Revealing yourself will make it so every player can see that you are the President, and you will become unguessable after typing the command. However, after the President has revealed themselves, whoever killed the President will have their kill CD greatly reduced on their next kill.
 
 # Merchant
 
@@ -756,8 +761,8 @@ As an Investigator, you can use your Kill button to investigate someone. When yo
 
 # Guardian
 
-(Besatzung):
-Als der Wächter wirst du unbesiegbar, nachdem du deine Aufgaben beendet hast. Sogar Guesser können dich dann nicht mehr in Treffen guessen.
+(Crewmates):
+As the Guardian, you become immortal upon task completion. Guessers can't even guess you in meetings.
 
 # Addict
 
@@ -775,8 +780,8 @@ As the Mole, when you Vent, you stay in the Vent for 1 second. When you exit the
 
 # Alchemist
 
-(Besatzung):
-Der Alchemist erstellt mit jeder abgeschossenen Aufgabe einen Trank. Die Tränke werden unter dem Rollennamen beschrieben. Du kannst sieben verschiedene Tränke bekommen, zerstörerische wie effektlose. Mit Venten nutzt du einen Trank.
+(Crewmates):
+As the Alchemist, you brew potions when you complete tasks. The potion you made will show up under your role name with its corresponding description and instructions. You can get seven different potions, some with harmful or no effects. Vent to use the potion.
 
 # Kamikaze
 
@@ -791,8 +796,10 @@ In addition, you get arrows pointing to dead bodies, with a delay set by the Hos
 
 # Oracle
 
-(Besatzung):
-Als Orakel, wenn du jemanden votest, kannst du sehen ob die Person Verräter, Besatzung, oder Neutral ist. Je nach Einstellungen kann es sein das die Antwort nicht immer korrekt ist.
+(Crewmates):
+As the Oracle, you may vote a player during a meeting.
+You'll see if they are a Crewmate, Neutral, or Impostor.
+Depending on settings, there can be a chance that your result will be incorrect.
 
 # Spiritualist
 
@@ -880,11 +887,11 @@ Use this power to catch sneaky killers!
 # TaskManager
 
 (Crewmates):
-Als Task-Manager ist es dein Ziel, die Aufgaben der Beatzung so schnell wie möglich zu erledigen.
-Jedes Mal, wenn du eine Aufgabe erledigst, wird die eines zufälligen Besatzungsmitgliedes erledigt.
-Du wirst mit einem zufälligen Add-on belohnt, wenn jedes Besatzungsmitglied alle seine Aufgaben erledigt.
-Alle erledigten Aufgaben wirken sich auf dich aus, wenn du mit anderen Rollen gekenzeichnet bist.
-Abhängig von den Einstellungen erhältst du möglicherweise Informationen darüber, welche visuellen Aufgaben in vergangenen Runden erledigt wurden.
+As the Task Manager your objective is to help the crew finish tasks as fast as possible.
+Everytime you complete a task one random crewmate will have one of their tasks completed.
+You will be rewarded with a random add-on if any crewmate finishes all their tasks.
+Any tasks completed will affect you if marked by other roles.
+Depending on settings you might get information on what visual tasks were completed in past rounds.
 
 # Witness
 
@@ -948,7 +955,7 @@ As the Enigma, you get a random clue about the killer each meeting. Depending on
 # Socialite
 
 (Crewmates):
-Der Sozialist kann sein Kill Knopf auf einem Spieler nutzen um "eine Party zu schmeißen" auf dem Spieler für die Runde. Jeder der versucht mit dem gepartieten Spieler zu interagieren wird abgelehnt diese Runde und wird benachrichtigt das eine Party auf diesem Spieler war. Diese abgelehnten Spieler werden zu einer "Gäste Liste" hinzugefügt, von der der Sozialist benachrichtigt wird im nächsten Meeting. Jeder auf der Gäste Liste wird dann mit jedem interagieren können mit dem der Sozialist eine Party veranstaltet. Der Sozialist darf auf einen Spieler im Meeting voten der zu der Gäste Liste hinzugefügt wird. Spieler können nicht von der Gäste Liste entfernt werden.
+The Socialite may use their kill button on a player to "throw a party" on that player for the round. Anyone who attempts to interact with the partied player will be denied that round and will be notified that there was a party on that player. These rejected players will be added to a "Guest List", which the Socialite will be notified of during the next meeting. Everyone on the Guest List will now be able to interact with any player the Socialite parties with. The Socialite may also vote a player during a meeting to add that player to the Guest List. Players can not be removed from the Guest List.
 
 # Pyromaniac
 
@@ -974,8 +981,8 @@ If the Jester gets voted out, the Jester wins the game alone. If the Jester is s
 
 # Terrorist
 
-(Neutral):
-Wenn der Terrorist stirbt, nachdem er seine Aufgaben erledigt hat, gewinnt er das Spiel allein. (Er kann durchs Rausvoten oder durch einen Kill gewinnen).
+(Neutrals):
+If the Terrorist dies after completing all tasks, the Terrorist wins the game alone. (They can win by either being voted out or killed).
 
 # Executioner
 
@@ -984,15 +991,15 @@ The Executioner is a role with an execution target, indicated by a diamond symbo
 
 # Lawyer
 
-(Neutral):
-Der Anwalt hat ein Ziel zum Beschützen, welches mit einem Diamanten 「♦」 neben dem Namen angezeigt wird.
-Wenn dein Ziel gewinnt, gewinnst du.
-Wenn dein Ziel verliert, verlierst du.
+(Neutrals):
+Lawyer has a target to defend, which will be indicated by a diamond 「♦」 next to their name.
+If your target wins, you win.
+If they lose, you lose.
 
 # Opportunist
 
-(Neutral):
-Wenn der Opportunist bis zum Ende des Spiels überlebt, gewinnt er mit den gewinnenden Spielern.
+(Neutrals):
+If the Opportunist survives at the end of the game, the Opportunist will win with the winning player.
 
 # Vector
 
@@ -1033,8 +1040,8 @@ As the Hater, you have no Kill Cooldown. However, depending on the settings, you
 
 # Demon
 
-(Neutral):
-Als Dämon killst du, indem du ihm Lebenspunkte entziehst. Du siehst neben jedem Namen die prozentualen Lebenspunkte, und jeder Angriff, den du ausführst, entzieht diesen einen Prozentsatz, ohne dass das Opfer davon weiß. Sobald du die Lebenspunkte deines Opfers auf 0 senkst, stirbt es. Du gewinnst, wenn du der Letzte bist, der noch übrig ist.
+(Neutrals):
+As the Demon, you kill by draining health. You see health in percentage near everyone's name, and every attack you make drains a percentage from that health without the victim knowing. Once you drain your victim's health to 0, they die. You win if you are the last one standing.
 
 # Stalker
 
@@ -1043,8 +1050,8 @@ The Stalker can kill anyone, and every kill will immediately cause a Lights Sabo
 
 # Workaholic
 
-(Neutral)
-Der Fleißige-Arbeiter, gewinnt alleine wen er alle seine Aufgaben erledigt hat. Abhängig von den Einstellungen des Hosts, kann er nur gewinnen wen er lebt und oder wen er ganz am Anfang offenbart wurde (diese Einstellungen sind selten beide an).
+(Neutrals):
+As the Workaholic, you win alone when you complete all tasks. Depending on the Host's settings, you can only win if you are alive and or revealed to everyone at the beginning (these settings are rarely both on).
 
 # Solsticer
 
@@ -1070,10 +1077,11 @@ To win, be the last player alive.
 
 # Sidekick
 
-(Neutral):
-Als Kumpan hilfst du dem Schakal, alle umzulegen um mit ihm zu gewinnen.
-Je nach Einstellungen wirst du zum Schakal, wenn dieser stirbt.
-Eventuell kannst du als Kumpan noch nicht killen.
+(Neutrals):
+As the Sidekick, your job is to help the Jackal kill everyone.
+You and the Jackal win together.
+Depending on the settings, you may turn into Jackal if old Jackal was killed.
+You may not be able to kill until old Jackal is dead.
 
 # Provocateur
 
@@ -1121,15 +1129,15 @@ A configurable amount of extra meeting time will be given on the meeting Death t
 
 # Baker
 
-(Apokalypse):
-Als der Bäcker, kannst du deinen Kill Knopf an einem Spieler pro Runde nutzen um dem Spieler ein Brot zu geben. Abhänging von den Einstellungen, wenn ein Spieler mit Broot stirbt kann der Bäcker wieder Brot in der gleichen Runde geben.
-Sobald eine bestimme Anzahl an Spielern mit Brot leben wirst du Famine.
+(Apocalypse):
+As the Baker, you can use your Kill Button on a player per round to give them bread. Depending on settings, if a player with Bread dies, then you can give bread again in that same round.
+Once a set amount of players are alive with bread, you become Famine.
 
-Wenn das Brot zusätzliche Effekte gibt und die Einstellungen an ist, kannst du auch venten um das Brot zu ändern was du ausgibst.
-<b>Brot Effekte:</b>
-Offenbarung: Offenbart die Rolle des Zieles zum Bäcker (bleibt das ganze Spiel gezeigt)
-Rollenblock: Setzt den Cooldown des Zieles zurück wenn sie versucht den Kill Knopf zu nutzen.
-Barriere: Gibt dem Ziel eine Barriere über die nur der Bäcker weiß (Barriere verschwindet nach dem Meeting)
+If the Bread gives additional effects and the setting is on, then you can Vent to change the bread that you give out. 
+<b>Bread Effects:</b>
+Reveal: Reveals the target's role to the Baker (stays the whole game)
+Roleblock: Resets the target's Kill Cooldown when they try to use their Kill Button
+Barrier: Gives the target a Barrier that is only known to the Baker (Barrier is removed after the meeting)
 
 # Famine
 
@@ -1202,8 +1210,11 @@ To win, survive to the end of the game.
 
 # Specter
 
-(Neutral): 
-Als Geister-Arbeiter musst du sterben und deine Aufgaben erledigt haben um zu gewinnen. Du kannst deine Aufgaben als Lebender machen. Du kannst nicht gewinnen, wenn du am Leben bist. Wenn du gekillt wirst, gewinnst du mit dem Gewinner Team insofern deine Aufgaben fertig sind.
+(Neutrals):
+As the Specter, your job is to get killed and finish your tasks.
+You can do your tasks while alive.
+You cannot win if you're alive.
+If you get killed, you win with the winning team if your tasks are completed.
 
 # Pirate
 
@@ -1253,19 +1264,19 @@ Soulless players win with you and count as dead.
 
 # Pickpocket
 
-(Neutral):
-Als der Taschendieb kannst du Votes deiner Kills stehlen.
+(Neutrals):
+As the Pickpocket, you steal votes from your kills.
 
-Kille alle um zu gewinnen.
+Kill everyone to win.
 
 # Traitor
 
-(Neutral):
-Der Betrüger wurde von den Verrätern verraten.
-Du weißt wer die Verräter sind aber sie erkennen dich nicht,
-Problem? Sie können dich killen aber du nicht sie.
+(Neutrals):
+As the Traitor, you were an Impostor that betrayed the Impostors.
+You know the Impostors, but they don't know you.
+The twist? They can kill you, but you can't kill them.
 
-Beseitige die Verräter auf andere Weise und kille dann alle um zu gewinnen!
+Eliminate the Impostors by other means, then kill everyone else to win!
 
 # Troller
 
@@ -1300,10 +1311,10 @@ You win if you survive till the end and Crewmates don't win.
 
 # Benefactor
 
-(Besatzung):
-Immer wenn du als Gönner eine Aufgabe erledigst, wird diese markiert. Wenn ein anderer Spieler diese Aufgabe erledigt bekommt er ein temporäres Schild.
+(Crewmates):
+As the Benefactor, whenever you finish a task, that task will be marked. When another player completes the marked task, they get a temporary shield.
 
- Hinweis: Schilde schützen nur vor direkten Kills.
+ Note: Shield only protects from direct kill attacks.
 
 # Spiritcaller
 
@@ -1344,10 +1355,10 @@ Note: You cannot steal the target's identity when Camouflage is active.
 
 # PunchingBag
 
-(Neutral):
-Als Boxsack gewinnst du, indem man einige Male versucht dich killen.
+(Neutrals):
+As the Punching Bag, your goal is to get attacked a few times to win.
 
-Du kannst nicht geguessed werden, das würde die Angriffsanzahl erhöhen.
+You cannot be guessed, as that adds to your attack count.
 
 # Doomsayer
 
@@ -1441,34 +1452,34 @@ As the Shocker, you can mark rooms by doing tasks in them, and then Vent to elec
 
 # Coven
 
-(Hexenzirkel):
-Hexenzirkel-Mitglieder sind in einem separaten Team, das zusammenarbeitet und gewinnt. Wenn es mehrere Hexenzirkel-Rollen im Spiel gibt, können sie gegenseitig die Rollen sehen.
-Abhängig von den Hosteinstellungen können Hexenzirkel-Rollen geguesst werden.
-Nutze /coveninfo für weitere Informationen.
+(Coven):
+Coven members are on a separate team that works together and wins together. If there are multiple Coven roles in the game, they can see each other's roles.
+Depending on the Host's settings, Coven roles can guess or be guessed.
+Do /coveninfo for more info.
 
 # Poisoner
 
-(Bündnis):
-Der Vergifter kann seinen Kill Knopf an einem Spieler nutzen um ihn zu rollenblockieren. Das nächste mal ein Rollenblockierte Spieler versucht seine Fähigkeit auszuführen, tut es nichts und ihr Wartezeit wird zurückgesetzt.
-<b>Mit dem Necronomicon, kannst du auch Doppel-clicken zum töten. Diese Kills werden verzögert.</b>
+(Coven):
+The Poisoner can use their Kill button on a player to roleblock them. The next time the roleblocked player tries to use their ability, it will do nothing, and their Cooldown will be reset.
+<b>With the Necronomicon, you can additionally double-click to kill. These kills will be delayed.</b>
 
 # HexMaster
 
-(Bündnis):
-Der Hex Meister kann seinen Kill Knopf nutzem um ein Spieler mit dem 乂 Symbol zu markieren. Wenn eine Person dieses Symbol am ende des Meetings hat und der Hex Meister nicht gestorben ist - dann stirbt sie.
-<b>Mit dem Necronomicon, der Hex wird umgeleitet - ähnlich wie eine Agitator Bombe. Du kannst auch den Kill Knopf doppelclicken um normal zu töten.</b>
+(Coven):
+The Hex Master can use their Kill button to mark a player with the 乂 symbol. If a player has this at the end of the meeting and the Hex Master hasn't died - then they die.
+<b>With the Necronomicon, the Hex will be passed around - similar to an Agitator bomb. Also, you can additionally double-click the Kill button to kill normally.</b>
 
 # Jinx
 
-(Bündnis):
-Der Jinx kann sein Kill Knopf nutzen um einen Spieler zu jinxen. Jeder der mit dem gejinxten Spieler interagiert wird sterben mit der Begründung gejinxt.
-<b>Mit dem Necronomicon kann der Jinx auch doppelclicken um normal zu töten. Außerdem stirbt der gejinxte Spieler und die Person die mit dem gejinxten Spieler interagiert hat.</b> 
+(Coven):
+The Jinx can use their Kill button to jinx a player. Anyone who interacts with the jinxed player will die with the death reason Jinxed.
+<b>With the Necronomicon the Jinx can additionally double-kill to kill normally. Also, the jinxed player and the player who interacted with the jinxed person will die.</b>
 
 # Medusa
 
-(Bündnis):
-Die Medusa kann ihren Kill Knopf nutzen um Spieler aus eingesteinert zu markieren. Wenn Meduse den Formwandel Knopf drückt, kann sich jeder eingesteinert Spieler nicht mehr bewegen und wird eine kleinere Sicht haben für eine einstellbare Zeit.
-<b>Mit dem Necronomicon, kannst du auch den Kill Knopf doppelclicken um normal zu töten. Getötete Spieler kann man nicht melden.</b>
+(Coven):
+The Medusa can use their Kill button on players to mark them as Stoned. When the Medusa clicks the Shapeshift button, all Stoned players will be unable to move and will have reduced vision for a configurable amount of time.
+<b>With the Necronomicon, you can additionally double-click the kill button to kill normally. Killed players will be unreportable.</b>
 
 # PotionMaster
 
@@ -1478,18 +1489,18 @@ The Potion Master has two potions available for their use. The Reveal potion rev
 
 # Necromancer
 
-(Bündnis):
-Als Necromancer, kannst du dich formwandeln um die Rolle eines zufälligen toten Spieler zu werden für eine bestimmte Zeit.
-Manche Rollen können nicht benutzt werden.
-Sobald eine Rolle genutzt wurde, kann es würde den Rest des Spieles nicht mehr benutzt werden.
-<b>Mit dem Necronomicon, kannst du zusätzlich töten. Wenn du formwandelst um eine andere Rolle zu werden, wird der Necronomicon zu einem anderem Bündnis Mitglied gegeben, aber wird zurück gegeben wenn du zurück Necromancer bist. Während du Necomancer bist, wenn jemand versucht dich zu töten wirst du den Kill blockieren und du wirst zu einem zufälligen Vent teleportiert. Du hast eine beschränkte Zeit deinen Mörderer zu töten. Wenn die Zeit vorbei ist oder du versucht wenn anderes zu töten, stirbst du.
-Das funktioniert nicht wenn du eine andere Rolle bist.</b>
+(Coven):
+As the Necromancer, you can Shapeshift to become the role of a random dead person for a set duration.
+Some roles can not be used.
+Once a role is used, it can not be used the rest of the game.
+<b>With the Necronomicon, you can additionally kill. If you use shapeshift to become another role, the Necronomicon will be given to another Coven member, but will be returned back to you when you change back to Necromancer. While being Necromancer, when someone tries to kill you, you will block the kill and be teleported to a random Vent. You have a limited time to kill your killer. If the time runs out or you try to kill someone else, you die.
+This does not work if you are a different role.</b>
 
 # CovenLeader
 
-(Bündnis):
-Als Bündnis Leiter kannst du den Kill Knopf auf einem anderem Bündnis Mitglied nutzen um ihn in eine zufällige Bündnis Rolle zu ändern die grade nicht im Spiel ist. Im nächsten Meeting wird dieser Bündnis Mitglied benachrichtigt das der Bündnis Leiter sich wünscht ihre Rolle zu ändern. Er kann sich selber voten und es anzunehmen oder wenn anderes voten um es abzulehnen. Die Änderung abzulehnen nimmt die Fähigkeit Nutzbarkeit nicht weg.
-<b>Mit dem Necronomicon, schaltest du den Kill Knopf frei und kannst jeden ändern der der Bündnis hilft (Zum Beispiel Anwalt oder Medic den Ein Bund Mitglied beschützt hat.) Du bist auch Immun gegen Rekrutierungen.</b>
+(Coven):
+The Coven Leader can use their Kill button on a fellow Coven member to retrain them into a random Coven role that isn’t currently in the game. During the next meeting, that Coven member will be notified that the Coven Leader wishes to retrain them. They can vote themselves to accept the retrain, or vote otherwise to deny it. Denying the retrain does not take away an ability usage.
+<b>With the Necronomicon, you gain access to the kill button and you are able to retrain anyone who is helping Coven (eg. Lawyer or Medic who has shielded Coven). You are also immune to being recruited.</b>
 
 # Ritualist
 
@@ -1584,12 +1595,12 @@ Pacifist => Their ability only works on Crewmates.
 # Watcher
 
 (Add-ons):
-Während dem Treffen, sieht der Beobachter jedes Vote.
+During the meeting, Watcher can see everyone's votes.
 
 # Flash
 
 (Add-ons):
-Die Standardgeschwindigkeit des Flitzers ist schneller als Andere. (Die Geschwindigkeit hängt von den Hosteinstellungen ab)
+The Flash's default movement speed is faster than others. (speed depends on the setting of the Host)
 
 # Torch
 
@@ -1604,7 +1615,7 @@ Whenever a player dies, the Seer will see a kill-flash (a red flash, possibly ac
 # Tiebreaker
 
 (Add-ons):
-Wenn ein unentschiedenes Vote herauskommt, wird der Spieler ausgeworfen, auf den der Tiebrecher gevotet hat. Hinweis: Haben 2 Tiebrecher entgegengesetzt gevotet wirkt diese Fähigkeit nicht.
+When tie vote, priority will be given to the target voted by the Tiebreaker. Note: If multiple Tiebreakers choose different tie targets simultaneously, the skills of the Tiebreaker will not take effect.
 
 # Oblivious
 
@@ -1624,7 +1635,7 @@ The first player to complete all the tasks will become Workhorse, and Workhorse 
 # Fool
 
 (Add-ons):
-Mechanik, Alchemist und Troller werden nicht zum Tollpatsche. Tollpatsche können keine Sabotage reparieren.
+Mechanic, Alchemist and Troller won't be Fool. Fools can't repair any Sabotage.
 
 # Avanger
 
@@ -1639,7 +1650,7 @@ Only Crewmate will become YouTuber. When the YouTuber is the first player to die
 # Egoist
 
 (Add-ons):
-Verräterhelfer und Neutrale können nicht Egoist werden. Wenn das Egoistenteam gewinnt, gewinnt er anstatt seinem ursprünglichen Team.
+Madmate and Neutrals won't be Egoist. If the Egoist's team wins, the Egoist wins instead of their team.
 
 # Stealer
 
@@ -1656,7 +1667,7 @@ Not assigned to Neutrals nor Madmates.
 # Mimic
 
 (Add-ons):
-Nur Verräter können Nachahmer werden. Wenn der Nachahmer stirbt bekommen die anderen Verräter beim nächsten Treffen eine Nachricht, in der die Rollen aufgelistet sind, die der Nachahmer gekillt hat.
+Only Impostor can become Mimic. When the Mimic is dead, other Impostors will receive a message once a meeting is called. This message will include information on roles which the Mimic killed.
 
 # Guesser
 
@@ -1682,8 +1693,8 @@ Only roles with a Kill button can get this Add-on. Unlike everyone else, you hav
 
 # Bait
 
-(Erweiterungen):
-Wenn der Köder getötet wird, löst der Mörder eine (Selbst)Meldung aus. Jedoch wird das nicht passieren, wenn der Mörder Aasgeier oder Reiniger ist. Die Selbstmeldung kann verzögert auftreten, je nach den Einstellungen des Gastgebers.
+(Add-ons):
+When the Bait dies, the murderer who killed the Bait will self-report the Bait's body. However, this won't happen when a Scavenger, Cleaner, Swooper, Wraith, Medusa, or Killing Machine kills the Bait. The report may have a delay according to the Host's settings.
 
 # Trapper
 
@@ -1699,7 +1710,7 @@ Once charmed, you are now on the Cultist's team and no longer on your original t
 # Cleansed
 
 (Add-ons):
-Gereinigte Add-ons kannst du nur wieder erhalten, wenn der Reiniger alle deine Add-ons weggereinigt hat. Je nach Reinigereinstellungen kannst du noch Add-ons bekommen oder nicht.
+Cleansed Add-on can only be obtained if cleanser erases all your Add-ons. Depending on the cleanser settings, you may not be able to obtain any more Add-ons in the future.
 
 # Infected
 
@@ -1721,12 +1732,12 @@ If a player with Double Shot guesses you correctly, they will die instantly.
 # Mundane
 
 (Add-ons):
-Als Weltlicher kannst du guessen nachdem du all deine Aufgaben erledigt hast.
+As Mundane, you can only guess once you complete all of your tasks.
 
 # Knighted
 
 (Add-ons):
-Wenn der Monarch jemanden zum Ritter schlägt, bekommt dieser einen Extra-Vote.
+When a Monarch knights someone, they get an extra vote.
 
 # Unreportable
 
@@ -1735,11 +1746,11 @@ With the Disregarded Add-on, your corpse will be unreportable.
 
 # Contagious
 
-(Verräterische Add-ons):
-Wenn du vom Virus infiziert bist, bist ein Angesteckter.
-Angesteckte Spieler gehören dem Virusteam an.
+(Betrayal Add-ons):
+When the Virus infects you, you become contagious.
+Contagious players are on the Virus team.
 
-Je nach Einstellungen stirbst du nach einem Treffen oder nicht.
+Whether or not you die after a meeting depends on the settings for the Virus.
 
 # Lucky
 
@@ -1773,14 +1784,14 @@ As the Gravestone, your role is revealed to everyone when you die.
 # Lazy
 
 (Add-ons):
-Als Fauler erhältst du nur eine kurze Aufgabe, und du bist immun gegen Hexenmeister, Puppenspieler und Gangster.
+As the Lazy, you are assigned a single short task and are immune to Warlocks, Puppeteers, and Gangsters.
 
 # Autopsy
 
-(Add-on):
-Als Autopsie kannst du sehen woran jemand starb.
+(Add-ons):
+As the Autopsy, you can see how people died.
 
-Wird keinem Arzt, Spurensucher, Wissenschaftler, oder Sonniger gegeben werden.
+Cannot be assigned to Doctor, Tracefinder, Scientist, or Sunnyboy.
 
 # Rebirth
 
@@ -1829,7 +1840,7 @@ During lights out, you and players nearby you will receive a vision boost.
 # Radar
 
 (Add-ons):
-Als Radar hast du immer Pfeile in die Richtung der Person, die dir am nächsten ist.
+As Radar, you have arrows pointing towards the closest person at all times.
 
 # Diseased
 
@@ -1850,8 +1861,8 @@ Additionally, you can't gain any new Add-ons from the Merchant.
 # Swift
 
 (Add-ons):
-Als Flinker bewegst du dich nicht auf die Leiche beim Killen.
-Hinweis: Du ignorierst auch Köder
+As the Swift, you will not make any movement when you kill.
+Note: Swift also ignores Bait
 
 # Unlucky
 
@@ -1871,7 +1882,7 @@ Holder of this Add-on will have 0 vote count.
 # Aware
 
 (Add-ons):
-Als Bewusster, wirst du darüber informiert, dass eine offenbarende Rolle mit dir in Kontakt getreten ist.
+As the Aware, you get a notification in the next meeting if a revealing role had interacted with you.
 
 # Fragile
 
@@ -1917,11 +1928,11 @@ As the Burst, your killer explodes if they aren't inside a Vent after a set amou
 # Sleuth
 
 (Add-ons):
-Als Pathologe erhältst du Informationen von Leichen.
+As the Sleuth, you gain info from dead bodies.
 
-Optional erfährst du die Rolle des Killers.
+Optionally, you may also gain the killer's role.
 
-Wird nicht dem Detektiv oder dem Leichenbestatter verliehen.
+Not assigned to Detective or Mortician.
 
 # Clumsy
 
@@ -1958,22 +1969,23 @@ Collector cannot become Influenced.
 # Silent
 
 (Add-ons):
-Als leiser Spieler werden beim Voting dein Skin nicht angezeigt. Also weiß niemand für wen du gevotet hast.
+As the Silent, your vote icon won't appear on the result screen.
+So nobody knows who you voted for.
 
 # Susceptible
 
 (Add-ons):
-Als Anfälliger wird der Grund deines totes zufällig sein.
+As the Susceptible, your death reason will be random.
 
 # Tricky
 
 (Add-ons):
-Als Komplizierter werden deine Kills einen zufälligen Grund haben.
+As the Tricky, your kills will have a random death reason.
 
 # Tired
 
 (Add-ons):
-Immer wen ein Müder killt (oder die Killfähigkeit nutzt) und oder eine Aufgabe fertig macht, wird er automatisch langsamer und seine Sichtweite wird kleiner.
+Whenever Tired kills (or uses kill ability on) someone, alternatively whenever they finish a task, they will temporarily get lower vision & lower speed.
 
 # Statue
 
@@ -2010,9 +2022,9 @@ As the Rainbow, you change your colors like crazy.
 
 # GM
 
-(Kein Team):
-Der Spielmeister ist eine Beobachtungsrolle.
-Alle wissen wer Spielmeister ist aber er hat keinen Einfluss auf das Spielgeschehen. Die Rolle wird dem Host zugeteilt wodurch er ein Geist zum Spielstart wird.
+(None):
+The Game Master is an observer role.
+Their presence does not affect the game, and all players know who the Game Master is. The Game Master role will be assigned to the Host, who will automatically become a ghost at the start of the game.
 
 # Sunnyboy
 
@@ -2027,13 +2039,13 @@ When a Bard is alive, the exile confirmation will display a sentence composed by
 
 # Warden
 
-(Besatzung [Geist]):
-Als der Aufseher warnst du jemanden vor nahen Gefahren, zusätzlich gibst du ihm einen vorübergehenden Geschwindigkeitsschub.
+(Crewmates [Ghost]):
+As the Warden, alert someone of nearby danger, additionally giving them a temporary speed boost.
 
 # Ghastly
 
-(Besatzung [Geist]): 
-Nimm als Grausiger eine ahnungslose Person in Besitz und suche dann anschließend ein Opfer für sie aus. Jetzt kann sie den Kill (oder die Killfähigkeit) nur auf das Opfer anwenden, bis du jemand anderen in Besitz nimmst oder die Zeit für die Besessenheit abläuft.
+(Crewmates [Ghost]):
+As the Ghastly, possess an unsuspecting person, after that choose a target for them, now they'll only be able to use their kill (or kill ability) on target until you possess someone else or possess time runs out.
 
 # Minion
 
@@ -2090,4 +2102,13 @@ Note that Revenant only works when being directly killed.
 The Requiter has no bullets at the beginning.
 For each Crewmate ejected,the Requiter gains one bullet.
 The Requiter can kill when they have bullets.
+
+# Narc
+
+(Betrayal Add-ons):
+Impostors and Madmates see Narc as their teammate,but Narc themselves don't know who the Impostors and Madmates are.
+Narc appears as a Sheriff to Crewmates
+
+Note:Depending on the settings,Impostors may kill each other when Narc is in a game.
+If the respective option is disabled,Narc won't be able to use their kill button until the other Impostors die.
 
